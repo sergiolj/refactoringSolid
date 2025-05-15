@@ -108,7 +108,7 @@ public class CommandInstructions {
     private void execute() throws IOException {
         if("pdf".equals(formato)){
             PDFConverter.converter(this);
-        } else if("ebook".equals(formato)){
+        } else if("epub".equals(formato)){
             EpubConverter.converter(this);
         }
     }
